@@ -1,0 +1,546 @@
+#main-heading{
+    font-family:'Inter', sans-serif;
+}
+
+body{
+    background-image: url(Images/NFT\ for\ Music\ Creators1111.jpg);
+    background-repeat: no-repeat;
+    font-family: 'Inter', sans-serif;
+    margin: 20px;
+   
+}
+
+#main-head{
+    color: white;
+    font-size:22px;
+    
+}
+
+#header-div{
+    width: 1340px;
+    height: 75px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(50px);
+
+    position: fixed;
+    top:-15px;
+}
+
+#nav-menu{
+    
+    list-style-type: none;
+    padding: 20px;
+    color: white;
+    position: absolute;
+    left: 500px;
+    top: -25px;
+}
+
+li{
+    display: inline;
+    padding:20px;
+    float: right;
+}
+
+li a{
+    color: white;
+    text-decoration: none;
+}
+
+li a:hover{
+    color: rgb(133, 133, 133)
+}
+
+#icons {
+    font-size: 20px;
+    float: right;
+    color: white;
+    padding:20px;
+
+    position: absolute;
+    top: 0px;
+    right: 60px;
+}
+
+i{
+    padding:10px;
+}
+
+#line{
+    border: 1px solid #FFFFFF;
+
+    position:absolute ;
+    top: 59px;
+    width: 1350px;
+}
+
+
+#home-img{
+    width: 600px;
+    height:820px;
+    position: absolute;
+
+    top: -70px;
+    left:780px;
+    z-index: -1;
+    
+}
+
+#nft-title{
+    color: white;
+    font-weight: 400;
+    font-size:78px;
+    font-style: normal;
+
+    position: absolute;
+    top: 130px;
+    left: 20px;
+    z-index: -1;
+}
+
+#nft-title2{
+    color: white;
+    font-weight: 400;
+    font-size:64px;
+    font-style: normal;
+
+    position: absolute;
+    top: 230px;
+    left: 20px;
+    z-index: -1;
+}
+
+#home-des{
+    color: white;
+    font-size:14px;
+    font-weight: 300;
+    line-height: 160%;
+
+    position: absolute;
+    top: 380px;
+    left: 20px;
+    z-index: -1;
+}
+
+#grp48{
+    position:absolute;
+    top:520px ;
+    left: 20px;
+    z-index: -1;
+}
+
+#discover{
+    color:rgb(255, 255, 255);
+    background-color:rgba(255, 255, 255, 0);
+    border-color:white;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 5px 50px;
+
+    cursor: pointer;
+
+
+    position:absolute;
+    top: 520px;
+    left:200px;
+    
+}
+
+
+#discover:hover{
+    background: linear-gradient(99.74deg, #06DBAC 5.23%, #BD00FF 92.7%);
+    border:none;
+    
+}
+
+
+#text-animate{
+    position: absolute;
+    top: 700px;
+    min-width: 100%;
+    animation:animate 25s linear infinite;
+    white-space: nowrap;
+    z-index: -1;
+   
+
+}
+
+
+#newway{
+    color: white;
+    font-size:20px;
+    font-weight: 100;
+    min-width: 100%;
+    z-index: -1;
+}
+
+@keyframes animate {
+    100%{
+        transform:translatex(100%);
+    }
+
+    0%{
+        transform:translatex(-100%);
+    }
+}
+
+
+#how{
+    position:relative;
+    top: 840px;
+    color: white;
+    font-size:72px;
+    font-weight:400;
+    z-index: -1;
+}
+
+#nft-para{
+    position: relative;
+    top: 820px;
+    color: rgb(255, 255, 255);
+    font-size:14px;
+
+    font-weight: 300;
+    line-height: 160%;
+    font-style: normal;
+    z-index: -1;
+
+}
+
+#nft-work{
+    position:relative;
+    top: 480px;
+    left:660px;
+    z-index: -1;
+}
+
+#nft-market{
+    position: relative;
+    top: 550px;
+    z-index: -1;
+}
+
+#nft-br{
+    position:relative;
+    top: -20px;
+    left: 680px;
+    color: white;
+    font-size:72px;
+    font-weight:400;
+    z-index: -1;
+
+    
+    
+}
+
+#nft-br-para{
+    position: relative;
+    top: -40px;
+    left: 680px;
+    color: rgb(255, 255, 255);
+    font-size:14px;
+
+    font-weight: 300;
+    line-height: 160%;
+    font-style: normal;
+    z-index: -1;
+
+}
+
+#ex-market{
+    color:rgb(255, 255, 255);
+    background-color:rgba(255, 255, 255, 0);
+    border-color:white;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 5px 50px;
+
+    cursor: pointer;
+
+
+    position:relative;
+    top: 0px;
+    left:680px;
+}
+
+#ex-market:hover{
+    background: linear-gradient(99.74deg, #06DBAC 5.23%, #BD00FF 92.7%);
+    border:none;
+}
+
+#fans-head{
+    position:relative;
+    top: 140px;
+    
+    color: white;
+    font-size:72px;
+    font-weight:400;
+    z-index: -1;
+    
+}
+
+.column {
+    float: left;
+    width: 31.33%;
+    padding: 10px;
+    height: 300px; 
+  }
+  
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .col-head{
+      color:white;
+      font-size: 54px;
+      font-style: normal;
+      font-weight: 600;
+  }
+
+  .col-para{
+      color: white;
+      font-style: normal;
+      font-weight: 300;
+  }
+
+  .row{
+      position: relative;
+      top: 140px;
+  }
+
+
+#discover-nft{
+    color: white;
+    font-size:72px;
+    font-weight:400;
+    z-index: -1;
+
+    position: relative;
+    top:-400px;
+}
+
+#music-gen{
+    color: white;
+    font-size:18px;
+    font-weight:400;
+   
+
+    position: relative;
+    top:-492px ;
+    left: 830px;
+
+}
+
+#gen-buttons{
+
+    
+  
+
+    position: relative;
+    top:-535px ;
+    left: 960px;
+    
+}
+
+#rock-button{
+    color:white;
+    border-radius: 50px;
+    border: 1px solid #FFFFFF;
+    background-color:rgba(240, 248, 255, 0);
+    width:60px;
+    height:30px;
+}
+
+#rock-button:hover{
+    background-color: white;
+    color:#09AF55;
+    z-index: -2;
+}
+#pop-button{
+    color:white;
+    border-radius: 50px;
+    border: 1px solid #FFFFFF;
+    background-color:rgba(240, 248, 255, 0);
+    width:60px;
+    height:30px;
+}
+
+#pop-button:hover{
+    background-color: white;
+    color:#09AF55;
+}
+
+#kpop-button{
+    color:white;
+    border-radius: 50px;
+    border: 1px solid #FFFFFF;
+    background-color:rgba(240, 248, 255, 0);
+    width:60px;
+    height:30px;
+}
+
+#kpop-button:hover{
+    background-color: white;
+    color:#09AF55;}
+
+#jazz-button{
+    color:white;
+    border-radius: 50px;
+    border: 1px solid #FFFFFF;
+    background-color:rgba(240, 248, 255, 0);
+    width:60px;
+    height:30px;
+}
+#jazz-button:hover{
+    background-color: white;
+    color:#09AF55;}
+
+#funk-button{
+    color:white;
+    border-radius: 50px;
+    border: 1px solid #FFFFFF;
+    background-color:rgba(240, 248, 255, 0);
+    width:60px;
+    height:30px;
+}
+
+#funk-button:hover{
+    background-color: white;
+    color:#09AF55;
+}
+
+#nft-list1{
+    position:relative;
+    top: -430px;
+}
+
+#nft-2{
+    left: 100px;
+}
+
+
+.nft-namehead{
+    color:white;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+#nft-heart_and_sol{
+    position: relative;
+    top: -180px;
+    left: 45px;
+}
+
+#sol-vector-1{
+    position: relative;
+    top: -175px;
+    left: 45px;
+    
+}
+
+.sol-price{
+    color: white;
+    font-size:16px;
+}
+
+#sol-1{
+    position: relative;
+    top: -212px;
+    left: 80px;
+}
+
+#sol-token-1{
+    position: relative;
+    top: -248px;
+    left: 230px;
+}
+
+.play-now{
+    color: white;
+    background-color:rgba(0, 0, 0, 0);
+    border-radius: 50px;
+    border: 1px solid #FFFFFF;
+    width: 120px;
+    
+
+}
+
+.buy-nft{
+    color: white;
+    height:44px;
+    border-radius: 50px;
+    background: linear-gradient(99.74deg, #06DBAC 5.23%, #BD00FF 92.7%);
+    width: 120px;
+    border: none;
+
+}
+
+#buynft-1{
+    position: relative;
+    left: 60px;
+    top:-243px;
+}
+
+#playnow-1{
+    position: relative;
+    left: 45px;
+    top:-243px;
+}
+
+
+
+
+
+
+#nft-2{
+    position: relative;
+    top: -1092px;
+    left:500px;
+}
+
+#nft-man-of-steel{
+    position: relative;
+    top: -1272px;
+    left:550px;
+}
+
+#sol-vector-2{
+    position:relative;
+    top:-1264px;
+    left:550px;
+}
+
+#sol-2{
+    position:relative;
+    top:-1304px;
+    left:585px;
+}
+
+
+#sol-token-2{
+    position: relative;
+    top: -1340px;
+    left: 730px;
+}
+
+#haha{
+    position: relative;
+    top: 1000px;
+    
+}
+
+
+
+
+
